@@ -4,6 +4,12 @@
 
 This project creates a serverless application based on AWS lambda to process CSV files sent to a S3 bucket and send the processed data to SQS queue.
 
+AWS lambda was chosen for this project in order to be simple as possible to
+implement and deploy.
+
+The deployment is made wit Terraform by using just the AWS terraform provider,
+also chosen due to it's simplicity and extensive support.
+
 ### Schemas
 
 ### CSV schema
